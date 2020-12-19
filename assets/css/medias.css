@@ -1,0 +1,27 @@
+@media screen and (max-width: 700px){
+    main{
+        background-image: url("../img/bg-intro-mobile.png");
+        background-repeat: repeat;
+    }
+    .container{
+        flex-direction: column;
+    }
+    .formulation{
+        width: 97%;
+        height: 50%;
+    }
+    .info .info__title{
+        margin: auto;
+        font-size: 2rem;
+    }
+    .info .info__description{
+        margin: 0;
+        margin-bottom: .8rem;
+        padding: .9rem;
+        text-align: center;
+    }
+    .btn-offer{
+        margin-top: .5rem;
+        padding: 1rem
+    }
+}
