@@ -1,14 +1,17 @@
 @media screen and (max-width: 700px){
     main{
-        background-image: url("../img/bg-intro-mobile.png");
-        background-repeat: repeat;
+        height: auto;
+        background-size: cover;
     }
     .container{
         flex-direction: column;
     }
     .formulation{
-        width: 97%;
         height: 50%;
+    }
+    .formulation__box{
+        width: auto;
+        position: relative;
     }
     .info .info__title{
         margin: auto;
@@ -23,5 +26,13 @@
     .btn-offer{
         margin-top: .5rem;
         padding: 1rem
+    }
+}
+@media screen and (min-width: 1440px){
+    .formulation__box{
+        width: 38%;
+        position: absolute;
+        top: 10%;
+        left: 52%;
     }
 }
